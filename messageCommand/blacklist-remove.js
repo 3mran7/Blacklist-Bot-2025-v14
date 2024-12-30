@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 module.exports = {
-    name: "b-remove",
+    name: "b-remove", //هنا تحط اي امر تبغاه مو شرط هذا
     async execute(message, args, client) {
 
         if (!message.member.permissions.has(PermissionsBitField.Flags.ManageGuild)) {
