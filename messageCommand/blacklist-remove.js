@@ -41,7 +41,7 @@ module.exports = {
 
 
             await member.roles.remove(role);
-            message.reply(`${user.username} has been unblacklisted`);
+            message.reply(`${user.username} تمت ازالة البلاك ليست بنجاح`);
         } catch (error) {
             message.reply("حدث خطا اثناء استخدام الامر");
             console.error(error);
