@@ -48,7 +48,7 @@ client.on('messageCreate', message => {
 
 client.once("ready", async () => {
 console.log("ready " + client.user.username);
-    client.user.setActivity("Fire Services", {
+    client.user.setActivity("MAYOR Studio", {
 type: ActivityType.Playing
 });
 });
