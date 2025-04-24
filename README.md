@@ -17,15 +17,21 @@ A powerful Discord bot that manages server Blacklist with advanced features and 
 - set Blacklist Role
 
 
+## Commands
+```
+b-add اضافة عضو للبلاك ليست
+b-remove ازالة عضو من البلاك ليست
+b-role رول البلاك ليست
+
+```
+
+
 ## 📋 How to setup
 
 ### Config file
 ```
-{
-    "botToken": "توكن البوت",
-    "welcomeChannelId": "ايدي روم الترحيب",
-    "autoRoleId": "رول الدخول التلقائي"
-  }
+token: "توكن البوت",
+prefix: "البريفكس الي تريده",
   
 ```
 
